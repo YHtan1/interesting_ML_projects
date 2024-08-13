@@ -4,6 +4,7 @@
 | STAT4609 Projects |[Projects for STAT4609 Big Data Analytics](STAT4609_Projects) |
 | Self-studying ML | [Review of ML Models](ML_ModelReview) |
 | Self - Written ML Algorithms | [Implementation of Interesting ML Algorithms](self_written_algo) |
+|Boston Housing dataset|[Study of different ML models on the Boston HousingDataset](BostonHousing)|
 
 # **STAT4609 Projects**
 [Projects for STAT4609 Big Data Analytics](STAT4609_Projects)
@@ -78,6 +79,7 @@ Although **Tree-based** methods show comparable performance, **NN** are still su
 </details>
 
 # **Self-written algo**
+[Implementation of Interesting ML Algorithms](self_written_algo)
 **Implementation of ML algorithms unavailable online that I wrote after reading about them in textbooks!**
 
 <details>
@@ -88,6 +90,19 @@ Although **Tree-based** methods show comparable performance, **NN** are still su
 
 </details>
 
+# **BostonHousing**
+[Study of different ML models on the Boston Housing Dataset](BostonHousing)
+**A report on different ML models on the Boston Housing Dataset.**
 
+<details>
+  <summary>Detailed Description of BostonHousing</summary>
+  
+# 1. Boston Housing
+[R code](https://github.com/YHtan1/interesting_ML_projects/blob/main/BostonHousing/Boston_final.R)
+[Report](https://github.com/YHtan1/interesting_ML_projects/blob/main/BostonHousing/Boston.pdf)
+- This report reviews different commonly used machine learning models like GLM/LR, SVM, tree-based methods like GBM/ Random Forests, etc. 
+- This report provides a detailed demonstration on how to fit them correctly on data to extract insight on the dataset reviewed. 
+- We will help build intuition on the unique characteristics of each model and how it affects the learning of data. 
+</details>
 
 
