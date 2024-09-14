@@ -109,7 +109,7 @@ Although **Tree-based** methods show comparable performance, **NN** are still su
 
 # **Titanic Dataset**
 [Predicting Survivors in the Titanic Disaster](titanic_dataset)
-# **Attempt to predict survivorship status for people aboard the RMS Titanic**
+## **Attempt to predict survivorship status for people aboard the RMS Titanic**
 <details>
   <summary>Detailed Description of Titanic Dataset</summary>
 
