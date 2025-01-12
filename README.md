@@ -6,6 +6,7 @@
 | Self - Written ML Algorithms | [Implementation of Interesting ML Algorithms](self_written_algo) |
 |Boston Housing Dataset|[Study of different ML models on the Boston Housing Dataset](BostonHousing)|
 |Titanic dataset|[Predicting Survivors in the Titanic Disaster](titanic_dataset)|
+|dl_boilerplate|[Boilerplate code for Neural Networks in the Pytorch framework](dl_boilerplate)|
 
 # **STAT4609 Projects**
 [Projects for STAT4609 Big Data Analytics](STAT4609_Projects)
@@ -135,6 +136,27 @@ Although **Tree-based** methods show comparable performance, **NN** are still su
 but variance between CV scores can be larger than decision trees - unable to generalize well to unseen test set
 - Feature engineering is extremely important-binning the continous variables + grouping certain rare categories together often helps wiht performance
 - Maybe Bayesian methods to weight estimators for a category vs estimator based on whole dataset will help reduce overfitting? (Worth further investigation)
+</details>
 
+# **dl_boilerplate**
+[Boilerplate code for Neural Networks in the Pytorch framework](dl_boilerplate)
+
+**Boilerplate code to save time setting up neural networks for other projects**
+
+<details>
+  <summary>Detailed Explanation of Boilerplate code</summary>
+
+# 1. MLP implementation in Pytorch + Optuna
+[dl_boilerplate_mlp_in_pytorch](dl_boilerplate/mlp_framework_pytorch.ipynb)
+
+- Implementation of **MLP** in Pytorch
+- Used **Optuna** to perform Grid Search for hyperparameter optimization
+
+
+# 2. MLP implementation with Pytorch + Lightning + Optuna
+[dl_boilerplate_mlp_in_lightning](dl_boilerplate/mlp_framework_lightning.ipynb)
+- Implementation of **MLP** in Pytorch
+- Used **Optuna** to perform Grid Search for hyperparameter optimization
+- Used **Lightning** to handle the training loop - benefits incl able to pause training without causing kernel to restart/ built-in functionality simplifies training 
 
 </details>
